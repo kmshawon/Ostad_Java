@@ -10,10 +10,10 @@ public class Asssignment2 {
         double rateOfInterest=sc.nextDouble();
 
         // 2. Take time input and store it in `strTime`
-        String strTime=sc.next();
+        String StrTime=sc.next();
 
         String numericPart;
-        numericPart = strTime.replaceAll("[^\\d.]", "");
+        numericPart = StrTime.replaceAll("[^\\d.]", "");
 
 
 
@@ -22,7 +22,7 @@ public class Asssignment2 {
 
         double year;
 
-        if(strTime.charAt(strTime.length()-1) == 'm'){
+        if(StrTime.charAt(StrTime.length()-1) == 'm'){
             year = time / 12.0;
         }
         else{
